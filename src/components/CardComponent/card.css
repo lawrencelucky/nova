@@ -1,0 +1,23 @@
+.card-container {
+  display: flex;
+  width: 47rem;
+  margin-bottom: 6rem;
+}
+
+.icon {
+  margin-right: 3rem;
+  color: #4099de;
+  font-size: 3rem;
+}
+
+.card-content h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.card-content p {
+  color: #56677b;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+}

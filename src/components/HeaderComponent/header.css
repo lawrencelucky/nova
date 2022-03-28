@@ -1,0 +1,25 @@
+.header-container {
+  padding: 2.7rem 0;
+  border-bottom: 1px solid #b4bbc2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-container ul {
+  display: flex;
+}
+
+.navigation-list {
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.navigation-list:not(last-child) {
+  margin-right: 2rem;
+}
+
+.navigation-list:hover {
+  opacity: 0.6;
+}
